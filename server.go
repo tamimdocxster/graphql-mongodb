@@ -22,7 +22,7 @@ var client *mongo.Client
 func main() {
 	// MongoDB connection setup
 	var err error
-	client, err = mongo.Connect(context.TODO(), options.Client().ApplyURI("mongodb+srv://tamimdocxster:test1234@test-db.tnqyz.mongodb.net/?retryWrites=true&w=majority&appName=test-db"))
+	client, err = mongo.Connect(context.TODO(), options.Client().ApplyURI("ENTER_URL_HERE"))
 	if err != nil {
 		log.Fatal(err)
 	}
